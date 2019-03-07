@@ -68,12 +68,12 @@ GET `https://iconmonstr-api.2ix.at/icons/search?query=Arrow&filter=fill`
 	"pages": 2, // Amount of pages
 	"icons": [
 		{
-			"slug": "arrow-25-svg", // The slug of the icon (useful for urls)
-			"previewImage": "https://cdns.iconmonstr.com/wp-content/assets/preview/2012/96/iconmonstr-arrow-25.png", // Preview image of the icon
-			"name": "Arrow 25", // Name of the icon
-			"likes": 104408 // Amount of likes
+			"slug": "cursor-11-svg", // The slug of the icon (useful for urls)
+			"previewImage": "https://cdns.iconmonstr.com/wp-content/assets/preview/2013/96/iconmonstr-cursor-11.png", // Preview image of the icon
+			"name": "Arrow 80", // Name of the icon
+			"likes": 2812 // Amount of likes
 		},
-    	...
+		...
 	]
 }
 ```
@@ -111,7 +111,7 @@ GET `https://iconmonstr-api.2ix.at/icons/popular?page=12`
 			"name": "Lock 21", // Name of the icon
 			"likes": 7887 // Amount of likes
 		},
-    	...
+		...
 	]
 }
 ```
@@ -157,7 +157,7 @@ GET `https://iconmonstr-api.2ix.at/icons/new?page=3&filter=thin`
 				"plural": true // Whether the unit is in plural or not (month/months)
 			}
 		},
-    	...
+		...
 	]
 }
 ```
