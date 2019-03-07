@@ -171,16 +171,16 @@ class Icon {
 				$newIcon['likes'] = intval(str_replace(',', '', trim($icon->getElementsByTagName('h3')
 				                                                          ->item(0)->textContent)));
 			} else {
-				$newIcon['timeElapsed'] = [];
+				$newIcon['dateInfo'] = [];
 
-				$newIcon['timeElapsed']['raw'] = trim($icon->getElementsByTagName('h3')
+				$newIcon['dateInfo']['raw'] = trim($icon->getElementsByTagName('h3')
 				                                           ->item(0)->textContent);
 
-				preg_match('/(\d+)\s*(day|week|month|year)(s?)\s*ago/', $newIcon['timeElapsed']['raw'], $matches);
+				preg_match('/(\d+)\s*(second|minute|hour|day|week|month|year)(s?)\s*ago/', $newIcon['dateInfo']['raw'], $matches);
 
-				$newIcon['timeElapsed']['count'] = $matches[1];
-				$newIcon['timeElapsed']['unit'] = $matches[2];
-				$newIcon['timeElapsed']['plural'] = ($matches[3] === 's');
+				$newIcon['dateInfo']['count'] = $matches[1];
+				$newIcon['dateInfo']['unit'] = $matches[2];
+				$newIcon['dateInfo']['plural'] = ($matches[3] === 's');
 			}
 
 			$icons[] = $newIcon;

@@ -59,11 +59,16 @@ function getNewIcons () {
 
 
 	$filter = '';
-	$allowedFilters = ['fill-bold', 'thin'];
+	$allowedFilters = ['all', 'fill-bold', 'fill', 'bold', 'thin'];
 
 	if (isset($_GET['filter']) && in_array($_GET['filter'], $allowedFilters))
 		$filter = $_GET['filter'];
 
+	if ($filter === 'all')
+		$filter = '';
+
+	if ($filter === 'fill' || $filter === 'bold')
+		$filter = 'fill-bold';
 
 	[$icons, $pageCount] = Icon::crawlNewIcons($filter, $page);
 
