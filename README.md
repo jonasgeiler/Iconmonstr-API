@@ -73,7 +73,7 @@ GET `https://iconmonstr-api.2ix.at/icons/search?query=Arrow&filter=fill`
 			"name": "Arrow 25", // Name of the icon
 			"likes": 104408 // Amount of likes
 		},
-    	...
+		...
 	]
 }
 ```
@@ -111,7 +111,7 @@ GET `https://iconmonstr-api.2ix.at/icons/popular?page=12`
 			"name": "Lock 21", // Name of the icon
 			"likes": 7887 // Amount of likes
 		},
-    	...
+		...
 	]
 }
 ```
@@ -157,7 +157,7 @@ GET `https://iconmonstr-api.2ix.at/icons/new?page=3&filter=thin`
 				"plural": true // Whether the unit is in plural or not (month/months)
 			}
 		},
-    	...
+		...
 	]
 }
 ```
