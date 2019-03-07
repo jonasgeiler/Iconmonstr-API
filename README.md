@@ -190,7 +190,7 @@ GET `https://iconmonstr-api.2ix.at/icons/github-1?fileType=svg`
 	"success": true, // False if an error occurred (to be done)
 	"icon": {
 		"slug": "github-1", // The slug of the icon (useful for urls)
-		"url": "https://iconmonstr.com/github-1-svg", // Url of the icon
+		"url": "https://iconmonstr.com/github-1-svg", // URL of the icon
 		"availableFileTypes": [ // Available file types for the fileType parameter
 			"svg",
 			"eps",

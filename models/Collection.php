@@ -85,7 +85,7 @@ class Collection {
 			$iconLink = $item->getElementsByTagName('a')
 			                 ->item(0)
 			                 ->getAttribute('href');
-			preg_match('/iconmonstr\.com\/(.+)-svg\//', $iconLink, $matches);
+			preg_match('/iconmonstr\.com\/(.+)-\w+/', $iconLink, $matches);
 			$newIcon['slug'] = $matches[1];
 
 			$newIcon['name'] = trim($item->getElementsByTagName('h3')

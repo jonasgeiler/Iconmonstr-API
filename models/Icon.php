@@ -159,7 +159,7 @@ class Icon {
 			$iconLink = $icon->getElementsByTagName('a')
 			                 ->item(0)
 			                 ->getAttribute('href');
-			preg_match('/iconmonstr\.com\/(.+)\//', $iconLink, $matches);
+			preg_match('/iconmonstr\.com\/(.+)-\w+/', $iconLink, $matches);
 			$newIcon['slug'] = $matches[1];
 
 			$iconImage = $icon->getElementsByTagName('img')
