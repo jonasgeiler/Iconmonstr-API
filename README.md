@@ -38,9 +38,7 @@ Please note that the api is not fully RESTful!
     - [GET /icon-requests/](#get-icon-requests)
     - [GET /icon-requests/:slug/](#get-icon-requestsslug)
 
-
-
-
+<br><br>
 ### GET /icons/search/
 
 > Get icons by search query
@@ -80,10 +78,7 @@ GET `https://iconmonstr-api.2ix.at/icons/search?query=Arrow&filter=fill`
 	]
 }
 ```
-
-
-
-
+<br><br>
 ### GET /icons/popular/
 
 > Get popular icons
@@ -121,10 +116,7 @@ GET `https://iconmonstr-api.2ix.at/icons/popular?page=12`
 	]
 }
 ```
-
-
-
-
+<br><br>
 ### GET /icons/new/
 
 > Get new icons
@@ -170,10 +162,7 @@ GET `https://iconmonstr-api.2ix.at/icons/new?page=3&filter=thin`
 	]
 }
 ```
-
-
-
-
+<br><br>
 ### GET /icons/:slug/
 
 > Get a specific icon
