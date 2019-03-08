@@ -37,7 +37,7 @@ Please note that the api is not fully RESTful!
 - Icon Requests
     - [GET /icon-requests/](#get-icon-requests)
     - [GET /icon-requests/:slug/](#get-icon-requestsslug)
-
+<br><br>
 ### GET /icons/search/
 
 > Get icons by search query
@@ -77,7 +77,7 @@ GET `https://iconmonstr-api.2ix.at/icons/search?query=Arrow&filter=fill`
 	]
 }
 ```
-
+<br><br>
 ### GET /icons/popular/
 
 > Get popular icons
@@ -115,7 +115,7 @@ GET `https://iconmonstr-api.2ix.at/icons/popular?page=12`
 	]
 }
 ```
-
+<br><br>
 ### GET /icons/new/
 
 > Get new icons
@@ -131,7 +131,7 @@ Parameter                  | Description
 **page**<br>*optional* | The page to retrieve (defaults to `1`).<br>**Example Value**: `3`
 **filter**<br>*optional* | Icon Filter (`all`, `fill-bold` or `thin` - defaults to `all`).<br>**Example Value**: `thin`
 
-> Note that other than at the `/icons/search` enpoint, there's only a `fill-bold` (no `fill` or `bold` by it's own)
+> Note that other than at the `/icons/search` endpoint, there's only a `fill-bold` (no `fill` or `bold` by it's own)
 
 #### Example Request
 
@@ -161,7 +161,7 @@ GET `https://iconmonstr-api.2ix.at/icons/new?page=3&filter=thin`
 	]
 }
 ```
-
+<br><br>
 ### GET /icons/:slug/
 
 > Get a specific icon
