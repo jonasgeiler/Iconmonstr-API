@@ -15,9 +15,9 @@ There's no configuration or anything needed. Just upload the whole repo onto you
 
 ## Todo
 
-- Better error messages
-- Search for collections
-- png support for icons (costumizing and coloring images and getting their download link)
+- [ ] Better error messages
+- [ ] Search for collections
+- [ ] png support for icons (costumizing and coloring images and getting their download link)
 
 ## API
 
